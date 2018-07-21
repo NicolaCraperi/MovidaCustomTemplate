@@ -1,0 +1,35 @@
+/* main: ../../css/style.scss*/
+.section {
+  margin: 50px 100px;
+  -webkit-box-shadow: 10px 10px 107px -5px rgba(0,0,0,0.1);
+  -moz-box-shadow: 10px 10px 107px -5px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 107px -5px rgba(0,0,0,0.1);
+
+  .col-lg-6.cover {
+    height: 70vh;
+    background-size: cover;
+  }
+
+  .col-lg-6.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+
+    .card-title {
+      font-size: 50px;
+      font-weight: bold;
+      color: $orange;
+    }
+
+    .card-text {
+      color: $heavyGrey;
+      font-size: 20px;
+    }
+
+    .card-wrapper-text {
+      margin: 0 30px;
+    }
+  }
+}

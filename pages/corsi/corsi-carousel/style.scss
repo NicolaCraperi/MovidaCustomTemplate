@@ -1,0 +1,50 @@
+/* main: ../../../css/style.scss*/
+.course-item {
+  .course-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    -webkit-box-shadow: 10px 10px 107px -5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 10px 10px 107px -5px rgba(0,0,0,0.1);
+    box-shadow: 10px 10px 107px -5px rgba(0,0,0,0.1);
+
+    .card-image{
+      width: 100%; height: auto;
+    }
+
+    .card-title {
+      margin: 20px 0;
+      font-weight: bolder;
+      font-size: 20px;
+    }
+
+    a {
+      color: $orange;
+      font-weight: bolder;
+      &:hover{
+        p {
+          background-color: $orange;
+          color: white;
+          transition: background-color 500ms;
+        }
+        text-decoration: none;
+      }
+      p {
+        padding:10px;
+        border: 2px solid $orange;
+        border-radius: 30px;
+      }
+    }
+  }
+}
+.courses-carousel {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.courses-carousel.slick-initialized.slick-slider{
+  display: flex;
+  align-items: center; 
+}

@@ -1,0 +1,111 @@
+/* main: ../../css/style.scss*/
+$white: #f4f4f4;
+$black: #000000;
+
+.menu-bottom {
+  z-index: 3;
+  position: fixed;
+  background-color: $white;
+  transition: background-color 1000ms;
+  width: 100%;
+  bottom: 0;
+  height: 80px;
+
+  .wrapper-bottom {
+    margin-top: 40px;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+
+  .wrapper-bottom {
+    a {
+      color: #666;
+    }
+  }
+
+  .wrapper-bottom:hover {
+    .tel {
+      text-decoration: none;
+
+      i {
+        color: #0077b5;
+        transition: color 200ms;
+      }
+
+      p {
+        color: $black;
+        transition: color 200ms;
+      }
+    }
+
+    .facebook {
+      text-decoration: none;
+
+      i {
+        color: #3b5998;
+        transition: color 200ms;
+      }
+
+      p {
+        color: $black;
+        transition: color 200ms;
+      }
+    }
+
+    .mail {
+      text-decoration: none;
+
+      i {
+        color: #F15245;
+        transition: color 200ms;
+      }
+
+      p {
+        color: $black;
+        transition: color 200ms;
+      }
+    }
+
+    .instagram {
+      p {
+        color: $black;
+        transition: color 200ms;
+      }
+    }
+
+    a {
+      text-decoration: none;
+
+      .instagram-radiant {
+        fill: url("#exampleGradient");
+      }
+    }
+  }
+
+  p {
+    display: inline;
+    color: #666;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    vertical-align: super;
+    font-family: "Aller";
+  }
+
+  .instagram-radiant {
+    fill: #666;
+  }
+
+  .linkedin:hover {
+    text-decoration: none;
+
+    i {
+      color: #0077b5;
+      transition: color 200ms;
+    }
+
+    p {
+      color: $black;
+      transition: color 200ms;
+    }
+  }
+}

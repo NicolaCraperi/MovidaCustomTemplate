@@ -1,0 +1,52 @@
+/* main: ../../css/style.scss*/
+$orange: #ff5d00;
+$heavyGrey: #2d2d2d;
+
+.movida-nav-bar {
+  transition: 1000ms opacity;
+  position: fixed;
+  right: 0;
+  top: 20px;
+  z-index: 10;
+
+  > ul {
+    list-style: none;
+    display: inline-flex;
+
+    li {
+      margin: 0 20px;
+      width: 150px;
+      text-align: center;
+      font-weight: 700;
+
+      a {
+        color: $white;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .col-nav-bar {
+    padding: 5px;
+
+    &:hover {
+      transition: 500ms border;
+      border: 2px solid $orange;
+      border-radius: 20px;
+    }
+  }
+
+  .col-nav-bar.active {
+    background-color: $orange;
+    border: 2px solid $orange;
+    border-radius: 20px;
+  }
+}
+
+.movida-nav-bar.hidden {
+  opacity: 0;
+  transition: 1000ms opacity;
+}
