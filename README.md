@@ -16,9 +16,9 @@ php
 
 In Atom use plugin Scss-AutoCompile
 
-## Running the tests
+## Run
 
-in root directory run
+in root directory run in terminal
 ```
 php -S 127.0.0.1:8000
 ```
