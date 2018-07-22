@@ -3,14 +3,13 @@
 This project is simple TEMPLATE write in html/php/js(jquery)/css(scss)
 
 ### Prerequisites
-
-Npm/NodeJs
-
-node-sass
+* Npm
+* NodeJs
+* node-sass
 ```
 npm install -g node-sass
 ```
-php
+* php
 
 ### Generate Style.min.css
 
