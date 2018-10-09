@@ -3,15 +3,15 @@
     <div class="row">
       <div class="col-lg-3 col-xs-3">
         <div class="wrapper-bottom">
-          <a href="#" class="facebook">
-            <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i><p>ABC</p>
+          <a href="https://www.facebook.com/ssdmovida/" class="facebook">
+            <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i><p>ssdmovida</p>
           </a>
         </div>
 
       </div>
       <div class="col-lg-3 col-xs-3">
         <div class="wrapper-bottom">
-          <a href="#" class="instagram">
+          <a href="https://www.instagram.com/movidassdarl/?hl=it" class="instagram">
             <svg width="28" height="28"
                xmlns="http://www.w3.org/2000/svg">
 
@@ -32,7 +32,8 @@
               <text class="instagram-radiant fab fa-2x" x="0" y="26">
                 &#xf16d;
               </text>
-              <p style="margin-left: 10px;">ABC</p>
+              <p style="margin-left: 10px;">movidassdarl
+</p>
             </svg>
           </a>
         </div>
@@ -40,14 +41,14 @@
       <div class="col-lg-3 col-xs-e">
         <div class="wrapper-bottom">
           <a href="#" class="tel">
-            <i class="fas fa-phone fa-2x" aria-hidden="true"></i><p>ABC</p>
+            <i class="fas fa-phone fa-2x" aria-hidden="true"></i><p>0342.012029</p>
           </a>
         </div>
       </div>
       <div class="col-lg-3 col-xs-3">
         <div class="wrapper-bottom">
           <a href="#" class="mail">
-            <i class="fas fa-at fa-2x" aria-hidden="true"></i><p>ABC</p>
+            <i class="fas fa-at fa-2x" aria-hidden="true"></i><p>info@movida-ssdarl.it</p>
           </a>
         </div>
       </div>
