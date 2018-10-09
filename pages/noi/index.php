@@ -39,6 +39,34 @@
     </p>
 </div>
 
+<div class="noi-sport">
+  <p class="sports">Cosa proponiamo</p>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 sport-col"  style="background: url('../../resources/images/_A0A8220.jpg'); background-size: cover;">
+          <div class="sport">
+            SPORT1
+          </div>
+        </div>
+        <div class="col-lg-3 sport-col"  style="background: url('../../resources/images/_A0A8220.jpg'); background-size: cover;">
+          <div class="sport">
+            SPORT2
+          </div>
+        </div>
+        <div class="col-lg-3 sport-col"  style="background: url('../../resources/images/_A0A8220.jpg'); background-size: cover;">
+          <div class="sport">
+            SPORT3
+          </div>
+        </div>
+        <div class="col-lg-3 sport-col"  style="background: url('../../resources/images/_A0A8220.jpg'); background-size: cover;">
+          <div class="sport">
+            SPORT4
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
 <div class="section">
     <div class="container-fluid">
       <div class="row">

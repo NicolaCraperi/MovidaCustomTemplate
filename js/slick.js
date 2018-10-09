@@ -1,4 +1,5 @@
 $('.courses-carousel').slick({
+  arrows: false,
   dots: false,
   infinite: false,
   speed: 300,

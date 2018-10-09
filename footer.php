@@ -12,5 +12,7 @@
   <script src="./js/nav-bar-hidden.js" type="text/javascript"></script>
   <script src="./js/check-section-in-nav-bar.js" type="text/javascript"></script>
   <script src="./js/slick.js" type="text/javascript"></script>
+  <script src="./js/scroll.js" type="text/javascript"></script>
+
 </footer>
 </html>
